@@ -124,3 +124,24 @@ Modo retrato (portrait): Menos de 480px */
   
   }
 }
+
+
+@media screen and (max-width: 500px){
+
+.title{
+    
+    font-size: 1.3em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 100px;
+  }
+
+  .subtitle{
+    font-size: 1em;
+    line-height: 2em;
+  }
+  .inicio{
+   
+  
+  }
+}
