@@ -3,6 +3,7 @@
 
 :root{
     --cor01:#bf2626;
+    --cor001:#bf26268f;
     
     --cor02: #f29e38;
     --cor03: #f2b138;
@@ -19,11 +20,12 @@
 
 body{
     font-family: "Roboto", serif;
-    background-color: var(--cor01);
+    
     
   
     
 }
+
 
 
 main{
