@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/inicio.css">
+    <title>Chicken Burger</title>
+  </head>
+  <body>
+    <header class="head" id="header">
+      <button onclick="toggleSidebar()" class="btn-icon-header">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
+      <div class="logo-header">
+        <img
+          src="assets/logo.png"
+          alt="logo chicken burger"
+          class="img-logo-header"
+        />
+      </div>
+      <div class="navigation-header" id="navigation-header">
+        <button class="btn-icon-header" onclick="toggleSidebar()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </button>
+        <a href="#">Inicio</a>
+        <a href="#">Cardápio</a>
+        <a href="#">Contato</a>
+        <a href="#">Sobre nós</a>
+      </div>
+    </header>
+
+    <main id="content" tabindex="0" onclick="closeSidebar()">
+      <div class="inicio">
+        <div class="text">
+          <h1 class="title">Chicken <span id="mod">Burger</span>: O Sabor Que Vai conquistar beagá</h1>
+          <h2 class="subtitle">
+            Experimente nossos hambúrgueres <span id="mod">irresistíveis</span> feitos com os <br>melhores
+            ingredientes <span id="mod">frescos</span> e muito sabor. Uma explosão de sabores
+            <br>em cada mordida, esperando por você! Venha se apaixonar <br>pela nossa
+            <span id="mod">paixão</span> por sanduiche!
+          </h2>
+        </div>
+        <div class="banner">
+          <img src="assets/chickenburger.png" alt="hamburger" class="banner-inicio" />
+        </div>
+      </div>
+    </main>
+
+    <script src="source.js"></script>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+.inicio {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.banner {
+ 
+}
+.banner-inicio {
+  width: 700px;
+}
+
+.title {
+  color: var(--branco);
+  font-size: 2.5em;
+  font-weight: bolder;
+
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px black;
+}
+
+.subtitle {
+  color: var(--branco);
+  font-size: 1.6em;
+  font-weight: bolder;
+  line-height: 2em;
+  text-align: justify;
+  margin-top: 40px;
+  text-shadow: 1px 1px 4px black;
+}
+
+#mod {
+  color: var(--cor03);
+}
+
+/* Desktops / Laptops:
+
+Largura mínima: 1024px
+Largura máxima: 1920px (ou mais)
+Tablets:
+
+Modo paisagem (landscape): Entre 768px e 1024px
+Modo retrato (portrait): Entre 600px e 768px
+Smartphones:
+
+Modo paisagem (landscape): Entre 480px e 768px
+Modo retrato (portrait): Menos de 480px */
+
+@media screen and (min-width: 1024px) and (max-width: 1350px) {
+  .inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 50px;
+  }
+
+  .banner {
+    display: block;
+    
+  }
+
+  .banner-inicio {
+    width: 500px;
+    height: 500px;
+  }
+  .text {
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .banner {
+    display: block;
+  }
+   .banner-inicio {
+    width: 350px;
+    margin-top: 0px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+
+  .subtitle{
+    font-size: 1.4em;
+    line-height: 2em;
+  }
+
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.text{
+    text-align: center;
+}
+ }
+
+@media screen and (max-width: 650px){
+
+.title{
+    
+    font-size: 1.8em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .subtitle{
+    font-size: 1.3em;
+    line-height: 2em;
+  }
+  .inicio{
+   
+  
+  }
+}
