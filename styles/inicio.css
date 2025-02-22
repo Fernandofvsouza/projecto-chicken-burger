@@ -102,8 +102,24 @@ Smartphones (retrato): Menor que 480px */
 
 
 
-@media screen and {
+@media screen and (max-width: 768px){
+ 
+    .text{
+        margin: 0px 20px;
+    }
+ 
+    .title{
+    font-size: 1.8em;
+    
+ }
 
+ .subtitle{
+    font-size: 1.2em;
+   
+ }
 
+ .btn-home{
+    padding: 20px 20px;
+ }
 
 }
