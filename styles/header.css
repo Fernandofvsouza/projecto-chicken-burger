@@ -6,6 +6,7 @@ header {
   padding: 0 5%;
 
   background-color: var(--cor03);
+  border-bottom: 4px solid var(--cor01);
   box-shadow: 1px 1px 4px var(--preto);
   height: 5em;
 }

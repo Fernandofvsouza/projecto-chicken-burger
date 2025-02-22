@@ -1,0 +1,109 @@
+.home {
+  height: 820px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* a foto do background */
+  background-image: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-color: rgba(0, 0, 0, 0.829); /* Cor preta com transparência */
+  background-blend-mode: overlay; /* Combina a cor com a imagem */
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  color: var(--cor01);
+  font-size: 2.8em;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-family: "Sour Gummy", serif;
+  letter-spacing: 3px;
+}
+
+.subtitle {
+  color: var(--cor02);
+  font-size: 1.8em;
+  margin-bottom: 50px;
+  font-family: "Sour Gummy", serif;
+  letter-spacing: 2px;
+}
+.btn {
+  margin-bottom: 50px;
+}
+.btn-home {
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--branco);
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px black;
+  border: none;
+  box-shadow: 1px 1px 4px black;
+  background-color: var(--cor03);
+  padding: 20px 50px;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.5s ease-in-out;
+}
+
+.btn-home:hover {
+  background-color: transparent;
+  border: 1px solid var(--cor03);
+  color: var(--cor03);
+  transform: scale(1.1);
+}
+
+.social {
+  cursor: pointer;
+
+  display: flex;
+  gap: 50px;
+}
+
+#instagram,
+#whatsapp,
+#facebook {
+  color: var(--branco);
+  transition: 0.5s ease-in-out;
+}
+
+#instagram:hover {
+  color: var(--cor03);
+  transform: scale(1.1);
+}
+
+#whatsapp:hover {
+  color: var(--cor03);
+  transform: scale(1.1);
+}
+
+#facebook:hover {
+  color: var(--cor03);
+  transform: scale(1.1);
+}
+
+/* Desktops: Largura maior que 1024px
+Tablets (paisagem): Entre 768px e 1024px
+Tablets (retrato): Entre 600px e 768px
+Smartphones (paisagem): Entre 480px e 767px
+Smartphones (retrato): Menor que 480px */
+
+
+
+@media screen and {
+
+
+
+}
