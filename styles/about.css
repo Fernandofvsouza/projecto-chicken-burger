@@ -1,0 +1,33 @@
+.about{
+    height: 410px;
+    width: 100vw;
+    background-color: var(--cor03);
+    box-shadow: 2px 2px 4px var(--preto);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-about{
+    font-family: "Sour Gummy", serif;
+    font-size: 2.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--cor01);
+    margin-bottom: 20px;
+    
+    
+}
+
+.text-about{
+    font-family: "Sour Gummy", serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 45px;
+    color: var(--preto);
+    
+}
+    
