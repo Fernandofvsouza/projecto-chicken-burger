@@ -1,5 +1,5 @@
 .about{
-    height: 410px;
+    height: 610px;
     width: 100vw;
     background-color: var(--cor03);
     box-shadow: 2px 2px 4px var(--preto);
@@ -11,23 +11,35 @@
 
 .title-about{
     font-family: "Sour Gummy", serif;
-    font-size: 2.8em;
+    font-size: 2.3em;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--cor01);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.502);
     
     
 }
 
 .text-about{
     font-family: "Sour Gummy", serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 45px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.408);
+    
+    
+    
+    
     color: var(--preto);
     
+}
+
+.img-about{
+    height: 350px;
+    width: auto;
+    margin: 0 40px;
+    border: 4px solid var(--cor01);
+    box-shadow: 1px 1px 4px black;
 }
     
