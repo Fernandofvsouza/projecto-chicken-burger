@@ -3,13 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/global.css"/>
     <link rel="stylesheet" href="styles/header.css"/>
     <link rel="stylesheet" href="styles/inicio.css"/>
     <link rel="stylesheet" href="styles/about.css"/>
-    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/menu.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
 
-    <title>Chicken Burger</title>
+    <title>Chicken & Burger</title>
   </head>
   <body>
     <header class="head" id="header">
@@ -60,7 +62,7 @@
     <main id="content" tabindex="0" onclick="closeSidebar()">
       <section class="home">
         <div class="text">
-          <h1 class="title">Chicken Burger: O Sabor de Belo Horizonte</h1>
+          <h1 class="title">Chicken and Burger: O Sabor de Belo Horizonte</h1>
           <h2 class="subtitle">
             Experimente o melhor hambúrguer da cidade, com ingredientes frescos
             e sabor inconfundível!
@@ -120,7 +122,7 @@
             Sobre nós
           </h1>
           <h3 class="text-about">
-            A Chicken Burger é a mais nova sensação do fast food em Belo Horizonte! Fundada <br>nesta década, a hamburgueria chegou para revolucionar o paladar dos <br>
+            A Chicken and Burger é a mais nova sensação do fast food em Belo Horizonte! Fundada <br>nesta década, a hamburgueria chegou para revolucionar o paladar dos <br>
             belo-horizontinos com um cardápio irresistível. Especializada em hambúrgueres <br>suculentos e frangos crocantes, a casa combina ingredientes de alta qualidade,<br> sabores marcantes e um atendimento de primeira. Com um ambiente moderno e acolhedor.
           </h3>
         </div>
@@ -132,35 +134,24 @@
       </section>
 
       <section class="menu">
-        <h2 class="menu-title">Nosso cardápio</h2>
+        <h3 class="menu-title">Nosso Cardápio</h3>
         <div class="menu-itens">
           <div>
             <img src="assets/hambuerger1.webp" alt="">
-            
-              <div class="info">
-                <h3 class="name-burger">Burger Santa Efigenia</h3>
-                <h4> 30 R$ </h4>
-                <button class="order">Pedir Agora</button>
-              </div>
-            
-              </div>
-
-          <div>
-            <img src="assets/hamburger2.jpg" alt="">
 
             <div class="info">
-              <h3 class="name-burger">Burger Pampulha</h3>
-              <h4> 35 R$ </h4>
+              <h3 class="name-burger">Santa Efigenia</h3>
+              <h4>30 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
 
           <div>
-            <img src="assets/hamburger4.jpg" alt="">
+            <img src="assets/hamburger2.jpg" alt="">
 
             <div class="info">
-              <h3 class="name-burger">Burger Santa Tereza</h3>
-              <h4> 35 R$ </h4>
+              <h3 class="name-burger">Paraíso</h3>
+              <h4>35 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
@@ -169,8 +160,18 @@
             <img src="assets/hamburger3.jpg" alt="">
 
             <div class="info">
-              <h4 class="name-burger">Burger Buritis</h4>
-              <h4> 38 R$ </h4>
+              <h3 class="name-burger">Santa Tereza</h3>
+              <h4>38 R$</h4>
+              <button class="order">Pedir Agora</button>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/hamburger4.jpg" alt="">
+
+            <div class="info">
+              <h3 class="name-burger">Floresta</h3>
+              <h4>38 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
@@ -179,8 +180,8 @@
             <img src="assets/hamburger 5 .jpg" alt="">
 
             <div class="info">
-              <h4 class="name-burger">Burger Renascença</h4>
-              <h4> 40 R$ </h4>
+              <h3 class="name-burger">Sagrada Familia</h3>
+              <h4>40 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
@@ -189,17 +190,18 @@
             <img src="assets/hamburger6.jpg" alt="">
 
             <div class="info">
-              <h4 class="name-burger">ChickenBurger Barreiro</h4>
-              <h4> 35 R$ </h4>
+              <h3 class="name-burger">Horto</h3>
+              <h4>35 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
 
           <div>
             <img src="assets/small bucket.jpeg" alt="">
+
             <div class="info">
-              <h4 class="name-burger">Balde de Frango Centro</h4>
-              <h4> 25 R$</h4>
+              <h3 class="name-burger">Centro</h3>
+              <h4>28 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
@@ -208,13 +210,48 @@
             <img src="assets/chicken bucket.jpg" alt="">
 
             <div class="info">
-              <h4 class="name-burger">Balde de Frango Taquaril</h4>
-              <h4>35 R$</h4>
+              <h3 class="name-burger">São Geraldo</h3>
+              <h4>34 R$</h4>
               <button class="order">Pedir Agora</button>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="contato">
+        <h2 class="title-footer">Contato e Localização</h2>
+        <div class="instagram">
+          <div class="btn-instagram">
+            <i class="fa-brands fa-instagram"> <span>@ChickenandburgerBH</span> </i>
+          </div>
+        </div> 
+
+        <div class="whatsapp">
+          <div class="btn-whatsapp">
+            <i class="fa-brands fa-whatsapp"> <span>(31)99970-7070</span></i>
+          </div>
+        </div>
+
+        <div class="facebook">
+          <div class="btn-facebook">
+            <i class="fa-brands fa-square-facebook"> <span>Chicken&Burger</span></i>
+          </div>
+        </div>
+
+        <div class="location">
+          <div class="btn-location">
+            <i class="fa-solid fa-location-dot"> <span>Rua: Galdino do banho nº10, São Lucas</span></i>
+          </div>
+        </div>
+
+
+      </section>
+
+      <footer>
+        
+          <h2 class="footer-text">Desenvolvido por @fernandoLSK</h2>
+        
+      </footer>
 
 
       

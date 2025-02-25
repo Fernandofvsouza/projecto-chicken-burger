@@ -1,0 +1,90 @@
+.contato{
+    height: 350px;
+    width: 100vw;
+
+    background-color: var(--cor03);
+    padding-left: 10px;
+}
+.title-footer{
+    font-family:  "Sour Gummy", serif;
+    font-size: 2.8em;
+    color: var(--cor01);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    padding-top: 20px;
+}
+.instagram{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.instagram i {
+    font-size: 1.8em;
+    color: var(--cor01);
+    text-shadow: 1px 1px 1px black;
+}
+
+.instagram span{
+    color: var(--branco);
+}
+
+.whatsapp{
+    padding-bottom: 20px;
+}
+
+.whatsapp i{
+    font-size: 1.8em;
+    color: var(--cor01);
+    text-shadow: 1px 1px 1px black;
+}
+
+.whatsapp span{
+    color: var(--branco);
+}
+
+.facebook{
+    padding-bottom: 20px;
+}
+
+.facebook i{
+    font-size: 1.8em;
+    color: var(--cor01);
+    text-shadow: 1px 1px 1px black;
+}
+
+.facebook span{
+    color: var(--branco);
+}
+
+.location {
+    padding-bottom: 20px;
+}
+
+.location i{
+    font-size: 1.8em;
+    color: var(--cor01);
+    text-shadow: 1px 1px 1px black;
+}
+
+.location span{
+    color: var(--branco);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--cor01);
+}
+.footer-text{
+    
+    font-family:  "Sour Gummy", serif;
+    font-size: 2em;
+    color: var(--cor03);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    
+}
