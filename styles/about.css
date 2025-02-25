@@ -43,3 +43,45 @@
     box-shadow: 1px 1px 4px black;
 }
     
+
+@media screen and (max-width: 768px){
+    .img-about{
+        display: none;
+    }
+    .title-about{
+        font-size: 1.8em;
+        margin-bottom: 50px;
+    }
+
+    .text-about{
+        font-size: 1.1em;
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    
+
+
+    .title-about{
+        font-size: 2em;
+        
+    }
+
+    .text-about{
+        font-size: 1.2em;
+        margin-bottom: 50px;
+        
+    }
+
+    .img-about{
+        height: 200px;
+        width: auto;
+    }
+}
