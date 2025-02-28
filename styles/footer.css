@@ -88,3 +88,34 @@ footer{
     text-align: center;
     
 }
+
+@media screen and (max-width: 600px) {
+    .title-footer{
+        font-size: 1.8em;
+    }
+
+    .instagram i{
+        font-size: 1.3em;
+    }
+
+    .whatsapp i{
+        font-size: 1.3em;
+    }
+
+    .facebook i{
+        font-size: 1.3em;
+    }
+
+    .location i{
+        font-size: 1.3em;
+    }
+
+    footer{
+        height: 100px;
+    }
+    
+    .footer-text{
+        font-size: 1.5em;
+    }
+    
+}
